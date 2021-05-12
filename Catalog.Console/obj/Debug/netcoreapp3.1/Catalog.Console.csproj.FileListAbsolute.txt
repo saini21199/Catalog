@@ -1,0 +1,17 @@
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Console.exe
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Console.deps.json
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Console.runtimeconfig.json
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Console.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Console.dll
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Console.pdb
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Data.dll
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\Catalog.Data.pdb
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.csproj.CopyComplete
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.dll
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.pdb
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\obj\Debug\netcoreapp3.1\Catalog.Console.genruntimeconfig.cache
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Console\bin\Debug\netcoreapp3.1\CsvHelper.dll

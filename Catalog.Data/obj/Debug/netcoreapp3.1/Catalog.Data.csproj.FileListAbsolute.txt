@@ -1,0 +1,9 @@
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\obj\Debug\netcoreapp3.1\Catalog.Data.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\obj\Debug\netcoreapp3.1\Catalog.Data.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\obj\Debug\netcoreapp3.1\Catalog.Data.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\bin\Debug\netcoreapp3.1\Catalog.Data.deps.json
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\bin\Debug\netcoreapp3.1\Catalog.Data.dll
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\bin\Debug\netcoreapp3.1\Catalog.Data.pdb
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\obj\Debug\netcoreapp3.1\Catalog.Data.dll
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\obj\Debug\netcoreapp3.1\Catalog.Data.pdb
+C:\Users\lenovo\source\repos\Catalog.Console\Catalog.Data\obj\Debug\netcoreapp3.1\Catalog.Data.csprojAssemblyReference.cache
