@@ -1,3 +1,4 @@
-Id,Name,ShortCode,Description,Manufacturer,SellingPrice
-1,Laptop,LAP,Electronic DeviceHP,49000
-2,BAT,BAT,Sports EquipmentSG,1300
+Manufacturer,SellingPrice,Id,Name,ShortCode,Description
+HP,49000,1,Laptop,LAP,Electronic Device
+Reynolds,6,2,Pen,PEN,Blue Pen
+Oneplus,27000,3,Mobile,MOB,Device

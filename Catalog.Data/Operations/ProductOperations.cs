@@ -56,32 +56,14 @@ namespace Catalog.Data.Operations
             Console.WriteLine("Please enter product price: ");
             product.SellingPrice = Convert.ToInt32(Console.ReadLine());
 
-            //product.Categories = new List<Category>();
-            //string choice;
-            //do
-            //{
-            //    Console.WriteLine("Select Category By Id For Adding a Product");
-            //    int id = Convert.ToInt32(Console.ReadLine());
-            //    var data = Categories.Single((a) => a.Id == id);
-            //    if (data != null)
-            //        product.Categories.Add(data);
-            //    Console.WriteLine("Do you want to add more catagories, yes to continue otherwise no:");
-            //    choice = Console.ReadLine();
-            //} while (choice == "yes");
-
-            //Products.Add(product);
-            ProductDatabaseCsv.addProductToCsvFile(product);
+            
+            op.addProductToCsvFile(product);
         }
         public void ListAllProducts()
         {
             Console.WriteLine("Id\t\tName\t\tShortCode\t\tDescription\t\tManufacturer\t\tPrice");
             op.displayProductFromCsvFile().ForEach(item =>
             {
-                //string s = "";
-                //item.Categories.ForEach(c =>
-                //{
-                //    s += c.Name + ", ";
-                //});
                 Console.WriteLine(item.Id + "\t\t" + item.Name + "\t\t" + item.ShortCode + "\t\t\t" + item.Description + "\t\t\t" + item.Manufacturer + "\t\t\t" + item.SellingPrice);
             }
             );
@@ -93,31 +75,15 @@ namespace Catalog.Data.Operations
             int id = Convert.ToInt32(Console.ReadLine());
 
             op.deleteProductFromCsvFile(id);
-            //Console.Write("1. delete by Id\t");
-            //Console.WriteLine("2. delete by Short Code\t");
-            //Console.WriteLine(" ");
-
-            //int choice = Convert.ToInt32(Console.ReadLine());
-            //if (choice == 1)
-            //{
-            //    Console.WriteLine("Enter product id to delete the product");
-            //    int id = Convert.ToInt32(Console.ReadLine());
-
-            //    Products.RemoveAt(id - 1);
-            //}
-            //else if (choice == 2)
-            //{
-            //    Console.WriteLine("Enter product short code to delete the product");
-            //    string shortcode = Console.ReadLine();
-            //    var producttoremove = Products.Single(r => r.ShortCode == shortcode);
-            //    Products.Remove(producttoremove);
-            //}
-
         }
 
         public void SearchProduct()
         {
-            //Console.WriteLine("Please select an option to search");
+            Console.WriteLine("Enter Id to search");
+            int id = int.Parse(Console.ReadLine());
+            Product item=op.findProduct(id);
+            Console.WriteLine("Id: " + item.Id + "\t" + "Name: " + item.Name + "\t" + "ShortCode: " + item.ShortCode + "\t" + "Description: " + 
+                item.Description + "Manufacturer: " + item.Manufacturer + "Price: " + item.SellingPrice);
             //Console.Write("1. search by Id\t");
             //Console.Write("2. search by Name\t");
             //Console.WriteLine("3. search by ShortCode");

@@ -29,9 +29,9 @@ namespace Catalog.Data.Database
             using (StreamReader sr = new StreamReader(filepath))
             using (CsvReader csvr= new CsvReader(sr,config)){
                 catlist = csvr.GetRecords<Category>().ToList();
-                catlist.ForEach(i => Console.WriteLine(i.Name));
+                //catlist.ForEach(i => Console.WriteLine(i.Name));
             }
-                return null;
+                return catlist;
         }
 
         public void addCategoryToCsv(Category category) {
@@ -41,7 +41,24 @@ namespace Catalog.Data.Database
                 csvw.NextRecord();
                 csvw.WriteRecord(category);
             }
-            this.displayCategoryFromCsv();
+        }
+
+        public Category findCategory(int id) {
+           Category foundcategory =catlist.Single(i => i.Id ==id);
+            
+                Console.WriteLine("Category Found");
+            return foundcategory;
+            
+        }
+
+        public void deleteCategoryFromCsv(int id) {
+            Category categoryToBeDeleted =catlist.Single(i => i.Id == id);
+            catlist.Remove(categoryToBeDeleted);
+
+            using (StreamWriter sw = new StreamWriter(filepath))
+            using (CsvWriter csvw = new CsvWriter(sw, config)) {
+                csvw.WriteRecords(catlist);
+            }
         }
     }
 }

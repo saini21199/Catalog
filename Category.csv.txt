@@ -1,4 +1,0 @@
-Id	Name	ShortCode	Description
-1	Cold Drink	CD	Drinking
-2	Cars	CAR	Vehicle
-3	TV	TV	Television
